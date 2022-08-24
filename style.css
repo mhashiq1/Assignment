@@ -1,0 +1,192 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+  
+}
+h1{
+   
+    font-size: 50px;
+}
+.donate-now{
+    background-image: url(donate-today/images/donation2.jpg);
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    padding-top: 60px;padding-bottom: 60px;
+    color: rgb(224, 205, 205);
+   
+}
+.donate{
+    text-decoration: none;
+    color: aliceblue;
+    padding: 10px 20px;
+    border-radius: 10px;
+    background-image: linear-gradient(red, tomato, orange);
+}
+.donate-today{
+    text-align: center;
+    margin-top: 100px;
+}
+.donate-today h2{
+    font-size: 40px;
+}
+.donate-today p{
+    color: #9e8585;
+}
+.button{
+    display: flex;
+    padding-top: 5%;
+    text-align: center;
+}
+.button-1{
+    width: 100px;
+    height: 100px;
+  margin-left: 25%;
+  margin-right: 2px;
+  padding: 40px 15px;
+}
+.button-2{
+    margin:2px;
+    padding:40px 15px ;
+}
+.button-3{
+    margin: 2px;
+    padding: 40px 15px;  
+}
+.button-4{
+    margin: 2px;
+    padding: 40px 15px;
+}
+.button-5{
+    margin-left: 2px;
+    margin-right: 25%;
+    padding: 40px 15px;
+}
+.accordion{
+    padding: 20px 20px;
+    font-size: 20px;
+    font-weight: 900;
+    background-color: whitesmoke;
+    border:  3px solid transparent;
+}
+.accordion:hover{
+    background: rgba(255, 99, 71, 0.74);
+
+    border: 3px solid tomato;
+    border-radius: 5px;
+}
+.link{
+    text-align: center;
+}
+.other p{
+    text-align: center;
+    color: #cccccc;
+}
+
+
+hr{
+    margin-left: 25%;
+    margin-right: 25%;
+}
+.now{
+    text-decoration: none;
+    margin: 100px 10px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: aliceblue;
+    font-weight: 900;
+    background-image: linear-gradient(red,tomato, orange);
+    display: inline-block;
+    margin-top: 20px;
+}
+
+
+
+.donate-plan{
+    text-align: center;
+   
+}
+.donate-plan h1{
+   
+}
+.column{
+    display: flex;
+   
+   
+}
+#food-family{
+    width: 24%;
+    margin: 5% 1% 5% 12%;
+    background-color: #85838321;
+    padding: 50px 20px;
+    border-radius: 5px;
+}
+#shelter{
+    width: 24%;
+    margin: 5% 1% 5%;
+    padding: 50px 20px;
+    border-radius: 5px;
+    background-color:rgba(228, 200, 192, 0.603);
+}
+#education{
+    width: 24%;
+    margin: 5% 12% 5% 1%;
+    padding: 50px 20px;
+
+   
+    border-radius: 5px;
+    background-color: rgba(222, 184, 135, 0.781);
+}
+.other{
+    margin-top: 10px;
+}
+.Contribute{
+    display: flex;
+}
+.half-width{
+    width: 50%;
+    margin-left: 15%;
+    padding-top: 20px;
+}
+
+.half-width img{
+    width: 80%;
+    margin-right: 15%;
+    padding-top: 20px;
+
+}
+.Updates{
+    text-align: center;
+
+}
+.Updates h2{
+    font-size: 40px;
+}
+.Updates p{
+    color: rgb(187, 177, 163);
+}
+footer{
+    text-align: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: antiquewhite;
+    padding: 20px 10px;
+    background-color: black;
+    background-attachment: fixed;
+}
+.input input{
+    background: #ddd;
+    border:none;
+    padding: 5px 10px;
+    margin: 20px 0px 20px 40px;
+
+
+}
+.input button{
+    border: none;
+    background: tomato;
+    padding: 5px 10px;
+    margin-left: -5px ;
+    color: #cccccc;
+}
